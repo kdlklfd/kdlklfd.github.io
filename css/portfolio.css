@@ -219,14 +219,29 @@ input[type=checkbox] {
     font-family: 'Roboto', sans-serif;
 }
 
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
 .thing img {
-    max-width: 350px;
+    max-width: 100%;
     height: auto;
 }
 
 @media screen and (max-width: 1200px) {
     .thing {
         flex: 40%;
+    }
+
+    .thing img {
+        max-width: 300px;
+        height: auto;
+    }
+
+    .item img {
+        max-width: 300px;
+        height: auto;
     }
 }
 
@@ -239,14 +254,11 @@ input[type=checkbox] {
         flex: 100%;
     }
 
-    .item img {
-        max-width: 250px;
-        height: auto;
+    .center4 {
+        flex-direction: column;
     }
 
-    .thing img {
-        width: 100%;
-        max-width: 275px;
-        height: auto;
+    .item {
+        flex: 100%;
     }
 }
