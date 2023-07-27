@@ -222,17 +222,11 @@ input[type=checkbox] {
 .item img {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .thing img {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -262,6 +256,13 @@ input[type=checkbox] {
 
     .center4 {
         flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bottom {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .item {
