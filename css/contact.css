@@ -213,8 +213,16 @@ textarea {
     padding-bottom: 5.5%;
 }
 
-.next1 {
-    margin-left: 6%;
+.next1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.next1 a h2 {
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: 5px;
+    text-decoration: none;
 }
 
 .next1 h2 {
