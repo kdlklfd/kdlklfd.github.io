@@ -14,6 +14,11 @@ body {
     top: 0;
 }
 
+.navtop div img {
+    width: 40px;
+    height: 40px;
+}
+
 .left {
     display: flex;
     margin-left: 2%;
@@ -30,7 +35,7 @@ body {
 
 .menu {
     display: flex;
-    margin-right: 190px;
+    margin-right: 22px;
 }
 
 .menu div a:hover {
@@ -75,7 +80,7 @@ input[type=checkbox] {
         margin-top: -53px;
         width: 40%;
         height: 100%;
-        opacity: 95%;
+        opacity: 80%;
     }
 
     .menu div {
@@ -204,7 +209,7 @@ input[type=checkbox] {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: -1%;
+    margin-top: 1%;
 }
 
 .thing {
@@ -217,16 +222,62 @@ input[type=checkbox] {
     font-size: 17px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-}
-
-.item img {
-    max-width: 100%;
-    height: auto;
+    margin-top: -2%;
 }
 
 .thing img {
-    max-width: 100%;
+    width: 350px;
     height: auto;
+}
+
+.bottoms {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    padding-left: 10%;
+    padding-right: 2%;
+    color: white;
+    background-color: #04091E;
+}
+
+.things input {
+    width: 95%;
+    height: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+.things {
+    flex: 25%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5%;
+}
+
+.things h2 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.things p {
+    font-weight: 300;
+    width: 90%;
+    margin-top: -2%;
+    font-size: 16px;
+}
+
+.media a {
+    text-decoration: none;
+}
+
+.media a img {
+    margin-right: 3%;
+    margin-top: 3%;
+    width: 30px;
+    height: 30px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -242,6 +293,11 @@ input[type=checkbox] {
     .item img {
         max-width: 300px;
         height: auto;
+    }
+
+    .things {
+        flex: 20%;
+        margin-top: 5%;
     }
 }
 
@@ -273,5 +329,9 @@ input[type=checkbox] {
     .thing {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .things {
+        flex: 100%;
     }
 }

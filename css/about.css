@@ -16,6 +16,12 @@ body {
     box-shadow: 0 -20px 150px 0 #d9d9d9;
     position: sticky;
     top: 0;
+    z-index: 1;
+}
+
+.navtop div img {
+    width: 40px;
+    height: 40px;
 }
 
 .leftside {
@@ -34,7 +40,7 @@ body {
 
 .menu {
     display: flex;
-    margin-right: 190px;
+    margin-right: 22px;
 }
 
 .menu div a:hover {
@@ -69,8 +75,6 @@ input[type=checkbox] {
     user-select: none;
 }
 
-
-
 @media (max-width: 768px) {
     .menu {
         display: none;
@@ -81,7 +85,7 @@ input[type=checkbox] {
         margin-top: -53px;
         width: 40%;
         height: 100%;
-        opacity: 95%;
+        opacity: 80%;
     }
 
     .menu div {
@@ -206,6 +210,11 @@ input[type=checkbox] {
     display: flex;
     align-items: center;
     margin-top: -2%;
+}
+
+.next img {
+    width: 22px;
+    height: 22px;
 }
 
 .next p {
@@ -395,6 +404,56 @@ progress::-webkit-progress-value {
     font-size: 15px;
 }
 
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    padding-left: 10%;
+    padding-right: 2%;
+    color: white;
+    background-color: #04091E;
+}
+
+.thing input {
+    width: 95%;
+    height: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+.thing {
+    flex: 25%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5%;
+}
+
+.thing h2 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.thing p {
+    font-weight: 300;
+    width: 90%;
+    margin-top: -2%;
+    font-size: 16px;
+}
+
+.media a {
+    text-decoration: none;
+}
+
+.media a img {
+    margin-right: 3%;
+    margin-top: 3%;
+    width: 30px;
+    height: 30px;
+}
+
 @media screen and (max-width: 1200px) {
     .portfolio div img {
         flex: 100%;
@@ -415,6 +474,15 @@ progress::-webkit-progress-value {
 
     #pa3 {
         margin-left: 0%;
+    }
+
+    .education {
+        height: 1400px;
+    }
+
+    .thing {
+        flex: 20%;
+        margin-top: 5%;
     }
 }
 
@@ -461,5 +529,13 @@ progress::-webkit-progress-value {
 
     .right {
         left: 0%;
+    }
+
+    .education {
+        height: 1100px;
+    }
+
+    .thing {
+        flex: 100%;
     }
 }
