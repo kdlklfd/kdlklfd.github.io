@@ -213,6 +213,11 @@ textarea {
     padding-bottom: 5.5%;
 }
 
+.next1 {
+    margin-left: 6%;
+
+}
+
 .next1 a {
     text-decoration: none;
     color: black;
@@ -280,6 +285,8 @@ textarea {
 .media img {
     margin-right: 3%;
     margin-top: 3%;
+    width: 30px;
+    height: 30px;
 }
 
 @media screen and (max-width: 1200px) {
